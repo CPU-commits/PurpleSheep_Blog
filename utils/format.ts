@@ -1,15 +1,19 @@
-import dayjs from 'npm:dayjs'
-
-dayjs.locale('es')
-
 const wordsPerMinute = 130
 
 export function formatDate(date: Date | string) {
-	return dayjs(date).format('DD MMM. YY')
+	const dateTo = new Date(date)
+	const year = dateTo.getFullYear().toString().substring(-2)
+	const month = dateTo.toLocaleString('default', { month: 'short' })
+	const day = dateTo.getDate()
+	return `${day.toString().padStart(2, "0")} ${month}. ${year}`
 }
 
 export function formatDateJSONLd(date: Date | string) {
-	return dayjs(date).format('YYYY-MM-DD')
+	const dateTo = new Date(date)
+	const year = dateTo.getFullYear()
+	const month = dateTo.getMonth() + 1
+	const day = dateTo.getDate()
+	return `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`
 }
 
 export function timeToRead(text: string) {

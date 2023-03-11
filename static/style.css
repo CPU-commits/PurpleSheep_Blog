@@ -43,13 +43,14 @@ html {
 .Header h1 {
 	font-size: 1.2rem;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	gap: 2px;
 }
 
 .Header h1 small {
 	font-size: 0.7rem;
 	color: var(--color-main);
+	margin-top: 5px;
 }
 
 .Header__right {

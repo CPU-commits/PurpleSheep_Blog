@@ -11,7 +11,11 @@ export function Header() {
 				<a href='/tags'>
 					Etiquetas
 				</a>
-				<a href='https://github.com' rel='external' target='_blank'>
+				<a
+					href='https://github.com/CPU-commits/PurpleSheep_Blog'
+					rel='external'
+					target='_blank'
+				>
 					<i class='fa-brands fa-github'></i>
 				</a>
 			</div>

@@ -121,7 +121,7 @@ html {
 	align-items: center;
 }
 
-.Post img {
+.Post__content img {
 	width: 100%;
 	max-height: 300px;
 	object-fit: contain;

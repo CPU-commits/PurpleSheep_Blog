@@ -1,6 +1,6 @@
 ---
 title: Cómo hacer SEO técnico para tu sitio web
-published_at: 2023-03-11T02:53:00.000Z
+published_at: 2023-03-20T07:48:00.000Z
 snippet: Resumen paso a paso de qué tener en cuenta para gestionar el SEO técnico de tu sitio web
 img: /img/seo.jpg
 tags: ['seo', 'technical']

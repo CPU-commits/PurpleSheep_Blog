@@ -13,7 +13,7 @@ export const handler: Handlers<{ post: Post; css: string }> = {
 		if (post === null) return ctx.renderNotFound()
 		// Get code css file
 		const hightlightCSS = await Deno.readTextFile(
-			join('./assets', 'out', 'hightlight.css.min.css'),
+			join('./assets', 'css', 'highlight.css'),
 		)
 		return ctx.render({
 			post,

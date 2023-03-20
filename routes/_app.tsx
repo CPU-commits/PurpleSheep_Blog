@@ -5,9 +5,10 @@ import { Header } from '../components/Header.tsx'
 
 export default function App({ Component }: AppProps) {
 	return (
-		<html lang='es'>
+		<html lang='es' prefix='og: https://ogp.me/ns#'>
 			<Head>
 				<meta name='author' content='Felipe Cárdenas' />
+				<meta property='og:site_name' content='Blog - Purple Sheep' />
 				<meta charSet='utf-8' />
 				<link rel='stylesheet' href={asset('/style.css')} />
 			</Head>

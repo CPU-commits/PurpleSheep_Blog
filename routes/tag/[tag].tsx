@@ -20,7 +20,37 @@ export default function Tag(props: PageProps<Array<Post>>) {
 				<title>Etiqueta {props.params.tag} - PurpleSheep</title>
 				<meta
 					name='description'
-					content={`Publicaciones para tiqueta ${props.params.tag}`}
+					content={`Publicaciones para etiqueta ${props.params.tag}`}
+				/>
+				<meta
+					property='og:title'
+					content={`Etiqueta ${props.params.tag} - PurpleSheep`}
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:url'
+					content={`https://blog.purple-sheep.com/tag/${props.params.tag}`}
+				/>
+				<meta
+					property='og:image'
+					content='https://blog.purple-sheep.com/img/sheep.jpg'
+				/>
+				<meta
+					property='og:description'
+					content={`Publicaciones para etiqueta ${props.params.tag}`}
+				/>
+				<meta name='twitter:card' content='summary' />
+				<meta
+					name='twitter:title'
+					content={`Etiqueta ${props.params.tag} - PurpleSheep`}
+				/>
+				<meta
+					name='twitter:description'
+					content={`Publicaciones para etiqueta ${props.params.tag}`}
+				/>
+				<meta
+					name='twitter:image'
+					content='https://blog.purple-sheep.com/img/sheep.jpg'
 				/>
 			</Head>
 			<section class='TagsContainer'>

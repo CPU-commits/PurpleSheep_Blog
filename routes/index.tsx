@@ -32,6 +32,30 @@ export default function Home(props: PageProps<Array<Post | null>>) {
 					name='description'
 					content='Blog de Purple Sheep - Escritura casual sobre tecnología y la vida misma'
 				/>
+				<meta property='og:title' content='Blog - Purple Sheep' />
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:url'
+					content='https://blog.purple-sheep.com'
+				/>
+				<meta
+					property='og:image'
+					content='https://blog.purple-sheep.com/img/sheep.jpg'
+				/>
+				<meta
+					property='og:description'
+					content='Blog de Purple Sheep - Escritura casual sobre tecnología y la vida misma'
+				/>
+				<meta name='twitter:card' content='summary' />
+				<meta name='twitter:title' content='Blog - PurpleSheep' />
+				<meta
+					name='twitter:description'
+					content='Blog de Purple Sheep - Escritura casual sobre tecnología y la vida misma'
+				/>
+				<meta
+					name='twitter:image'
+					content='https://blog.purple-sheep.com/img/sheep.jpg'
+				/>
 				<script
 					type='application/ld+json'
 					dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD) }}

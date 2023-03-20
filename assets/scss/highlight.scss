@@ -1,0 +1,35 @@
+.highlight {
+	background-color: var(--color-console);
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow-x: auto;
+}
+
+pre {
+	color: white;
+}
+
+.token {
+	color: var(--color-token);
+}
+
+.tag, .punctuation {
+	color: var(--color-tag);
+}
+
+.attr-name {
+	color: var(--color-attr);
+}
+
+.comment {
+	color: var(--color-comment);
+}
+
+:root {
+	--color-console: #141414;
+	--color-comment: #626262;
+	--color-tag: #37add4;
+	--color-attr: #ffd866;
+	--color-token: #a9dc76;
+}

@@ -114,6 +114,37 @@ html {
 	margin-bottom: 20px;
 }
 
+.Post a {
+	color: var(--color-main);
+}
+
+.Post blockquote {
+	font-style: italic;
+}
+
+.Post table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.Post table thead {
+	background-color: var(--color-dark);
+}
+
+.Post table thead tr th {
+	padding: 5px;
+	color: white;
+}
+
+.Post table tbody tr {
+	text-align: center;
+}
+
+.Post table tbody tr td {
+	padding: 15px;
+	border-bottom: 1px solid var(--color-light);
+}
+
 .Post header {
 	width: 100%;
 	display: flex;

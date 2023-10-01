@@ -10,7 +10,7 @@ Todo ciclo de vida de construcción de un sitio web está repleto de problemas. 
 rendimiento, eficiencia y funcionalidad, aspectos visuales como UX y UI, o aspectos tan invisibles y que hasta a veces ignoramos: **visibilidad**.
 
 La manera más óptima para conseguir visibilidad es que tu sitio sea encontrado a través
-de los motores de búsqueda, para dicha tarea es que existe el SEO o por sus ciclas *Search Engine Optimization*. El SEO en simples palabras es la tarea de óptimizar nuestro sitio para
+de los motores de búsqueda, para dicha tarea es que existe el SEO o por sus ciclas *Search Engine Optimization*. El SEO en simples palabras es la tarea de optimizar nuestro sitio para
 que sea encontrado por los diferentes motores de búsqueda. Ahora bien, el SEO tiene dos caras 
 a afrontar, la gestión de contenido y disponer de manera técnica ese contenido, este artículo
 es sobre lo segundo.
@@ -69,13 +69,13 @@ sitemaps de manera más fácil. [Este](https://www.npmjs.com/package/sitemap) es
 ### Open Graph [Twitter Cards y Facebook OG]
 
 Siguiendo en la linea de las meta etiquetas, con encontramos con Open Graph. ¿Esto qué es? 
-Bueno, Open Graph es un protocolo para que cualquier sitio web tércero le sea más fácil
-obtener de manera inriquecida información sobre tu sitio. OG es el estándar más representativo
+Bueno, Open Graph es un protocolo para que cualquier sitio web tercero le sea más fácil
+obtener de manera enriquecida información sobre tu sitio. OG es el estándar más representativo
 , sin embargo Twitter con sus Twitter Cards, hace algo bastante parecido.
 
 Estos datos enriquecidos podrán ser accedidos a través de esas meta etiquetas de nuestro sitio
 , y que finalmente nos recompensarán con tarjetas de nuestro contenido al momento de compartir
-un enlace de nustra aplicación.
+un enlace de nuestra aplicación.
 
 #### OG
 ```html
@@ -105,7 +105,7 @@ un enlace de nustra aplicación.
 De esta forma, idealmente debes usar las dos, en conjunto son muy poderosas y permitirás
 que cualquier sitio pueda generar una tarjeta enriquecida fácilmente.
 
-Te dejo también dos sitios para válidar [OG](https://debug.iframely.com/) y [Twitter Cards](https://cards-dev.twitter.com/validator) de tu sitio.
+Te dejo también dos sitios para validar [OG](https://debug.iframely.com/) y [Twitter Cards](https://cards-dev.twitter.com/validator) de tu sitio.
 
 ### Canonical
 
@@ -139,7 +139,7 @@ colocar dicha etiqueta apuntando al que en base a tu criterio quieras indexar. E
 JSON-LD por sus siglas *Javascript Object Notation for Linked Data*, es en sencillo un método
 para añadir datos estructurados a tu sitio web a través de un formato JSON. Este método
 ayuda a los motores a poder conseguir el contenido de tu sitio de una manera más estructurada,
-de manera tal, que te recomponensan en las búsquedas.
+de manera tal, que te recompensan en las búsquedas.
 
 Google por ejemplo, permite habilitar [funciones y mejoras en los resultados de búsqueda](https://developers.google.com/search/docs/appearance/structured-data/search-gallery?hl=es).
 Que vendrían siendo las tarjetas de recetas, reseñas de libros, entre otras, que hemos visto de toda la vida en una búsqueda.
@@ -192,8 +192,8 @@ hacer es declarar a qué robot, agente o motor de búsqueda quieres hablarle, y 
 dos partes, el *Allow* y *Disallow*, donde Allow es que rutas quieres habilitar, y disallow
 deshabilitar.
 
-Verdaderamente, robots.txt no tiene mucha utilidad real, más que limitar a robots de imagenes a que entren a tu sitio, o decirle a los agentes que no consulten
-en tu carpeta de estáticos o imagenes. Ya que casi nadie quiere que se indexen archivos.
+Verdaderamente, robots.txt no tiene mucha utilidad real, más que limitar a robots de imágenes a que entren a tu sitio, o decirle a los agentes que no consulten
+en tu carpeta de estáticos o imágenes. Ya que casi nadie quiere que se indexen archivos.
 
 #### Meta robots
 Bien, meta etiqueta para robots por otro lado, sí tiene más utilidad. Es parecido a lo anterior, pero con muchas más reglas y funcionalidades, ejemplo de reglas:
@@ -215,7 +215,7 @@ Esta se escribe de la siguiente forma:
 ```
 Esto en cualquier página que no quieras indexar y listo.
 
-PD: En teoria puedes no usar esta meta etiqueta y en su lugar ocupar *headers*, pero es
+PD: En teoría puedes no usar esta meta etiqueta y en su lugar ocupar *headers*, pero es
 más problema si esto lo montas sin servidor o proxy :). Sin embargo te lo dejo equivalente por si acaso:
 
 ```txt
@@ -293,7 +293,7 @@ A modo de conclusión, a sido realmente mucho ¡eh! Pero trata realmente de impl
 estas herramientas que te acabo de mencionar, investigalas y si por último no las vas a investigar,
 di ejemplos bastantes claros sobre cómo son, dónde van y qué forma tienen. Puedes copiar y pegarlas y empezar a editarlas desde ahí.
 
-También consulta alguna otras guias sobre cómo gestionar el contenido de tu web, ya que yo no
+También consulta alguna otras guías sobre cómo gestionar el contenido de tu web, ya que yo no
 soy definitivamente el más experto.
 
 Pero siempre recuerda si tu sitio no llega, entonces no es un buen sitio. ¡Suerte!
